@@ -6,17 +6,17 @@ const app=new Vue
     el:"#app",
   data:
   {
-      zeile:
+      row:
       [
-          {vorname:"",nachname:""}
+          {name:"",surname:""}
       ]
   },
   methods:{
-    hinzufeugen(){
-        this.zeile.push({vorname:"",nachname:""})
+    add(){
+        this.row.push({name:"",surname:""})
     },
-    loeschen(index){
-        this.zeile.splice(index,1)
+    del(index){
+        this.row.splice(index,1)
     }
   }
 

@@ -21,13 +21,13 @@
 
 <div id="app">
 
-<div class="zeile" v-for=" (x,i) in zeile">
+<div class="zeile" v-for=" (x,i) in row">
   {{i+1}}.
-  <input type="text" placeholder="Vorname" v-model="x.vorname">
-  <input type="text" placeholder="Nachname" v-model="x.nachname">
-  <button @click="loeschen(i)">Löschen</button>
+  <input type="text" placeholder="Name" v-model="x.name">
+  <input type="text" placeholder="Surname" v-model="x.surame">
+  <button @click="del(i)">Delete</button>
 </div>
-<button @click="hinzufeugen" class="btn btn-primary">Hinzufügen</button>
+<button @click="hinzufeugen" class="btn btn-primary">Add</button>
 </div>
 
 
