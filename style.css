@@ -12,7 +12,10 @@ body{
 
 }
 
-
+.row
+{
+    display: flex;
+}
 .row input
 {
  margin-bottom: 5px;
