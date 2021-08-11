@@ -1,0 +1,27 @@
+*{box-sizing: border-box;}
+body{
+    height: 100vh;
+    margin: 0;  
+    font-family: "Segoe UI";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+ 
+
+}
+
+
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 5px;
+}
+
+.blue
+{
+    background-color: blue;
+}
