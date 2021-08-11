@@ -13,15 +13,7 @@ body{
 }
 
 
-.box
+.row input
 {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    margin-bottom: 5px;
-}
-
-.blue
-{
-    background-color: blue;
+ margin-bottom: 5px;
 }
